@@ -1,0 +1,65 @@
+h2 {
+  color: #654321;
+  text-align: center;
+  font-size: 18px;
+  margin: 8px;
+}
+img {
+  width: 100%;
+  margin-top: 20px;
+}
+.rooms {
+  width: 40%;
+}
+.navbar {
+  background-color: GhostWhite;
+  letter-spacing: 3px;
+  padding: 3px;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-family: "Lucida Console", Monaco, monospace;
+}
+.navbar a:hover {
+  text-transform: lowercase;
+  text-decoration: none;
+  letter-spacing: 6px;
+}
+a:link, a:visited {
+  color: SteelBlue;
+  text-decoration: none;
+  font-weight: bold;
+}
+a:hover {
+  color: Black;
+  text-decoration: underline;
+  font-style: italic;
+}
+body {
+  background-color: GoldenRod;
+  text-align: center;
+  color: #654321;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+figcaption {
+  font-color: #654321;
+  text-size: 12px;
+}
+hr {
+  border: 2px solid SteelBlue;
+}
+hr.roomDivide {
+  border: 1px dashed SteelBlue;
+}
+.column3 {
+  float: left;
+  width: 33%;
+}
+.column3 img {
+  width: 85%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

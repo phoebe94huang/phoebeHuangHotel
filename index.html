@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>The Kipper Hotel</title>
+  <link rel="stylesheet" type="text/css" href="hotelStyle.css">
+</head>
+<body>
+  <img src = "images/hotelBanner.png">
+  <p>
+  <div class = "navbar">
+    <a href = "index.html">Home</a> |
+    <a href = "amenities.html">Amenities</a> |
+    <a href = "dining.html">Dining</a> |
+    <a href = "attractions.html">Attractions</a>
+    </div>
+  </p>
+  <p><strong>
+    254 Clifford Ave<br>
+    New York, NY 10119
+  </strong></p>
+  <p>
+    <a href = "tel:547-737-7829">547-737-7829</a><br>
+    <a href = "mailto:kipper@kipperhotel.com">kipper@kipperhotel.com</a>
+  </p>
+  <p>
+    Located across from Pennsylvania Station.<br>
+    Easy access to trains, the subway, taxis, Uber, and more!
+  </p>
+  <hr>
+  <h2>Welcome to The Kipper Hotel! You can come find us in Manhattan, just steps away from Penn Station!<br>
+    We are an upscale, 5-star hotel with amenities, dining options, and rooms for all types of guests!<br>
+    We hope that you will call The Kipper Hotel your vacation home!
+  </h2>
+  <h3>Plan your stay!</h3>
+  <form action="phoebeHuang.php" method="post">
+    <center>
+    <table>
+      <tr>
+        <td><strong>Check-In:</strong></td>
+        <td><input type="date" name="checkin" required autofocus></td>
+      </tr>
+      <tr>
+        <td><strong>Check-Out:</strong></td>
+        <td><input type="date" name="checkout" required></td>
+      </tr>
+      <tr>
+        <td><strong>Rooms:</strong></td>
+        <td><select name="numRooms" required>
+          <option value="1">One (1)</option>
+          <option value="2">Two (2)</option>
+          <option value="3">Three (3)</option>
+          <option value="4">Four (4)</option>
+        </select></td>
+      </tr>
+      <tr>
+        <td><strong>Adults:</strong></td>
+        <td><select name="numAdults" required>
+          <option value="1">One (1)</option>
+          <option value="2">Two (2)</option>
+          <option value="3">Three (3)</option>
+          <option value="4">Four (4)</option>
+        </select></td>
+      </tr>
+      <tr>
+        <td><strong>Children:</strong></td>
+        <td><select name="numChildren" required>
+          <option value="0">Zero (0)</option>
+          <option value="1">One (1)</option>
+          <option value="2">Two (2)</option>
+          <option value="3">Three (3)</option>
+        </select></td>
+      </tr>
+    </table>
+    </center>
+    <input type="submit">
+  </form>
+</body>
+</html>
